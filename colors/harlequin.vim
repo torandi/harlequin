@@ -325,3 +325,7 @@ call s:Highlight('CtrlPPrtBase',              '', '', 'bold', '')
 "*** taglist.vim ***
 call s:Highlight('TagListTitle',              s:white, '', 'bold', '')
 call s:Highlight('TagListFileName',           s:brick, '', '', '')
+
+"*** gdbvim ***
+call s:Highlight('DebugBreak',				  s:text, s:greys[5], 'bold', '')
+call s:Highlight('DebugStop',				  s:text, s:moss, 'bold', '')
